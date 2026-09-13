@@ -1,0 +1,32 @@
+{
+  "wavelength_m": 5.32e-7,
+  "slm_pixels": 16,
+  "pixel_pitch_m": 8.0e-6,
+  "oversample": 2,
+  "fft_size": 128,
+  "order_lens_focal_m": 0.2,
+  "order_lens_diameter_m": 0.0254,
+  "relay_focal_m": 0.1,
+  "relay_lens_diameter_m": 0.0254,
+  "corner_intensity": 0.8,
+  "fill_factor": 0.95,
+  "phases_deg": [0.0, 90.0, 180.0, 270.0],
+  "coarse_carrier_values": [3.0],
+  "coarse_iris_values_mm": [0.5],
+  "coarse_target_values": [1.0, 2.0, 3.0],
+  "coarse_angle_values_deg": [0.0, 45.0, 90.0, 135.0],
+  "final_angle_values_deg": [0.0, 45.0, 90.0, 135.0],
+  "operational_thresholds": {
+    "correlation": 0.95,
+    "leakage": 0.10,
+    "modulation_error": 0.10
+  },
+  "thresholds": {
+    "correlation": 0.95,
+    "leakage": 0.10,
+    "modulation_error": 0.10
+  },
+  "boundary_step": 0.5,
+  "conventional_radius": 2.0,
+  "msf_radius": 4.0
+}

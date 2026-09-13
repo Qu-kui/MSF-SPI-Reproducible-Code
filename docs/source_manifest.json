@@ -1,0 +1,186 @@
+{
+    "schema_version":  1,
+    "generated_utc":  "2026-09-13T01:40:55.0284499Z",
+    "entries":  [
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\Moire_SPI_260603_sparse_response.py",
+                        "target":  "src/msf_spi/ideal/simulation.py",
+                        "bytes":  186675,
+                        "sha256":  "ec1fd5f298ed06df49b3963fbfea7d7aafff0325abd99d81cbf4a8067e356805"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\optimize_coefficients.py",
+                        "target":  "src/msf_spi/calibration/ideal_global_weights.py",
+                        "bytes":  17652,
+                        "sha256":  "8e4fe0dd1d5eaff7d275a3e9f84ee4ef999b386baaaf0404d06d6352af6351ce"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\Optimal_angle_diffs_SPI_circle_radial_stripes_optimized.json",
+                        "target":  "data/angle_library/optimal_angle_differences.json",
+                        "bytes":  3603818,
+                        "sha256":  "b1d230dddf80648a13bd5c3596013f22ea469defa097f3ec793412d20418b5eb"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\Test_image\\USAF-1951.jpg",
+                        "target":  "data/targets/USAF-1951.jpg",
+                        "bytes":  51703,
+                        "sha256":  "b09ef8c83e50f556ba131df8e305f22ab0fff8b9bcaec1fbd3339d0e36bf55b5"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\metrics.py",
+                        "target":  "src/msf_spi/metrics.py",
+                        "bytes":  1938,
+                        "sha256":  "77dceaba4d42334a06960254a49893174dd5b782253b7ce83e9af60a5610fcd5"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_bandwidth_config.py",
+                        "target":  "src/msf_spi/physical/config.py",
+                        "bytes":  5564,
+                        "sha256":  "69d402e0b9c58e677e9b16b303db598da43d4712f60dd090ccf7d27e2a018c3b"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_order_model.py",
+                        "target":  "src/msf_spi/physical/order_model.py",
+                        "bytes":  14511,
+                        "sha256":  "9cb9d30cf8d64956973de822b45a2e01542895ca6a1a28131dd3762155004ca3"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_pattern_cache.py",
+                        "target":  "src/msf_spi/physical/pattern_cache.py",
+                        "bytes":  3124,
+                        "sha256":  "98ffdd9b4a61598a770732594cdb81c356df9358ac10e73a1ee39f8e330f452b"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_bandwidth_256.py",
+                        "target":  "src/msf_spi/physical/bandwidth.py",
+                        "bytes":  14735,
+                        "sha256":  "a75b075428140df626f5720552bed3adc056ffac333517b772f612fe81943495"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_msf_spi.py",
+                        "target":  "src/msf_spi/physical/msf_patterns.py",
+                        "bytes":  5155,
+                        "sha256":  "eadbb9e4d6f89d8e06e360fa37d8da0a2b7c1d8592ecf2ba23a5ca971c03b8d1"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_fmax_msf_experiment.py",
+                        "target":  "src/msf_spi/physical/comparison.py",
+                        "bytes":  15839,
+                        "sha256":  "59b0963a1841eddd8098fcae4a4e7bd6e03ba3e6012a55113bb81fa23543deec"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_global_calibration.py",
+                        "target":  "src/msf_spi/calibration/global_weights.py",
+                        "bytes":  13057,
+                        "sha256":  "ba99dbaf0a28b6f81958f44026223b805a8e1570a5de6ee5c9d7127b3189d89c"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_response_matrix.py",
+                        "target":  "src/msf_spi/calibration/sparse_response.py",
+                        "bytes":  8122,
+                        "sha256":  "7a5b877a1f5aaf028cf5af0f5c0d0472191cb143a5fc108804184dbf9ea576f0"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_robustness_256.py",
+                        "target":  "src/msf_spi/robustness/cases.py",
+                        "bytes":  11139,
+                        "sha256":  "e27d311984ebd7531b742da0aa3c1d94186fd41f2e8b6c6e892900d703c0dfda"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_robustness_256_pipeline.py",
+                        "target":  "src/msf_spi/robustness/pipeline.py",
+                        "bytes":  32961,
+                        "sha256":  "8f5621213076b7649c2ee955047dc78bf1e6838486c0e1db8c97a57412dc4b20"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\physical_robustness_256_artifacts.py",
+                        "target":  "src/msf_spi/robustness/artifacts.py",
+                        "bytes":  16185,
+                        "sha256":  "3ff747fa306b01c7e83e12a1956f886e3d50c1739f96529ded85ce6eaffc58ee"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\mode4_gpu.py",
+                        "target":  "src/msf_spi/ideal/patterns.py",
+                        "bytes":  20764,
+                        "sha256":  "ac5d51ac4c5baa3d42d6f9c893b5dc4759c3c0b76218ece58fb21809272717aa"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\mode4_sparse_response.py",
+                        "target":  "src/msf_spi/calibration/sparse_response.py",
+                        "bytes":  12431,
+                        "sha256":  "12a2cb384dce823cd9107ddca886f0680f9dfac10f0ef140e27861f1493cf742"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\ideal_mode4_dual_angle.py",
+                        "target":  "results/reference/angular_quantization/summary.json",
+                        "bytes":  34938,
+                        "sha256":  "573409e1cbe31ae5877bd375d22d6229805552160d3c912903452e7e92fbc0a7"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_physical_robustness_256\\nominal_response_matrix.npz",
+                        "target":  "data/precomputed/physical_256_response_matrix.npz",
+                        "bytes":  6075949,
+                        "sha256":  "e6f92e6ae3c1bb959c1a892220d6e3eed07cec74d4d42296ed9c115d9af31061"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_physical_robustness_256\\global_weights.json",
+                        "target":  "data/precomputed/physical_256_global_weights.json",
+                        "bytes":  357,
+                        "sha256":  "24fbf137a78a3bd98e1ad958faae65ffd555fba07c0da69c1cca289a9baa4266"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_ideal_mode4_radial_stripes_shared_calibration\\calibration_0p001deg\\response_matrix.npz",
+                        "target":  "data/precomputed/ideal_response_matrix_0p001deg.npz",
+                        "bytes":  15333318,
+                        "sha256":  "78a5f6b0ebc70b17ee2bb9226682396625e980ed9aa2a60b3f3a57b04b44532a"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_ideal_mode4_radial_stripes_shared_calibration\\calibration_0p001deg\\response_matrix_responses.npz",
+                        "target":  "data/precomputed/ideal_response_matrix_0p001deg_responses.npz",
+                        "bytes":  199733,
+                        "sha256":  "67c4f013e2f5821dbb0e8edc387370f095dd626c1286805bfb42ffb1811f5f0f"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_ideal_mode4_radial_stripes_shared_calibration\\calibration_0p001deg\\response_matrix_metadata.json",
+                        "target":  "data/precomputed/ideal_response_matrix_0p001deg_metadata.json",
+                        "bytes":  232333,
+                        "sha256":  "c9d273679324650cf7baf44b96d29a7f7ddf469fb3fe2ba07893a850c205d41b"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_ideal_mode4_radial_stripes_shared_calibration\\dual_angle_comparison.png",
+                        "target":  "results/reference/angular_quantization/comparison.png",
+                        "bytes":  1922307,
+                        "sha256":  "4018c3b0942010e4cbc44b62e5290fbdc47fa8c03ad3994ffca943133eb66152"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_ideal_mode4_radial_stripes_shared_calibration\\dual_angle_summary.json",
+                        "target":  "results/reference/angular_quantization/summary.json",
+                        "bytes":  9145,
+                        "sha256":  "f36c68449cd294ef35147cbf7fc02be145a713b995bbe24b57391d78883b0308"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_physical_robustness_256\\summary_metrics.json",
+                        "target":  "results/reference/robustness/summary_metrics.json",
+                        "bytes":  16407,
+                        "sha256":  "9f44fe0cf37e90ea6124e0b5f46bf3d59651b95053c3ae52f74d7646fc7323ca"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\我的工作\\摩尔纹基底单像素成像-done\\最终综合测试\\MSF_SPI_waveoptics_robustness\\results_physical_robustness_256\\configuration.json",
+                        "target":  "results/reference/robustness/configuration.json",
+                        "bytes":  1658,
+                        "sha256":  "ad20525362ebb210bf49957ad2e312a0e217846fd211a04cca04fd8157ba9576"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\审稿意见\\R5.png",
+                        "target":  "results/reference/physical_comparison/Figure_R5.png",
+                        "bytes":  1613164,
+                        "sha256":  "20bcae0032a2de9eef9933162104ef2fb2bf2a5ee697c238d366692d5ecd7fa3"
+                    },
+                    {
+                        "source":  "D:\\DeskTop\\审稿意见\\R6.png",
+                        "target":  "results/reference/robustness/Figure_R6.png",
+                        "bytes":  1071946,
+                        "sha256":  "a29d54bad2fca90f3bc66c7c77c593b4d96ee5079c76dc651c4ed64a7c95c191"
+                    }
+                ]
+}

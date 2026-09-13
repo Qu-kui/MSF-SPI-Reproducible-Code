@@ -1,0 +1,196 @@
+{
+  "model": "ideal algebraic MSF-SPI",
+  "frequency_support": {
+    "shape": "circle",
+    "radius_cycles_per_fov": 64
+  },
+  "calibration": {
+    "fingerprint": "57fc6f28d96ad165f63c631f68ea7157082baa0019f479be93cce0e609d4ec0d",
+    "version": 1,
+    "shape": [
+      12852,
+      12852
+    ],
+    "nonzeros": 1844880,
+    "max_terms_per_complex_row": 96,
+    "relative_threshold": 0.0005,
+    "calibration_angle_step_deg": 0.001,
+    "loaded_from_cache": false,
+    "object_used_to_build_matrix": false,
+    "angle_library_path": "data/angle_library/optimal_angle_differences.json",
+    "angle_library_sha256": "b1d230dddf80648a13bd5c3596013f22ea469defa097f3ec793412d20418b5eb",
+    "angle_library_entry_count_after_filter": 51408,
+    "regularization": 0.1,
+    "regularization_selected_at_angle_step_deg": 0.001,
+    "regularization_transferred_unchanged_to_0p5deg": true,
+    "regularization_selection_reference": "USAF-1951 image after ideal circular R=64 band limitation",
+    "regularization_scan": {
+      "selection_condition_deg": 0.001,
+      "selection_metric": "SSIM versus the matched R=64 circular-band reference",
+      "selected_regularization": 0.1,
+      "candidates": [
+        {
+          "regularization": 0.03,
+          "reused_cached_diagnostic": false,
+          "solve_seconds": 113.80231510009617,
+          "relative_forward_residual": 0.028180883371294922,
+          "metrics_vs_full": {
+            "ssim": 0.4290258375270154,
+            "psnr_db": 9.137352457725497,
+            "nrmse": 0.3889742897804829
+          },
+          "metrics_vs_matched_reference": {
+            "ssim": 0.6883597634162248,
+            "psnr_db": 18.523643615364268,
+            "nrmse": 0.17254546478515984
+          }
+        },
+        {
+          "regularization": 0.1,
+          "reused_cached_diagnostic": false,
+          "solve_seconds": 161.61448749992996,
+          "relative_forward_residual": 0.08085800955339262,
+          "metrics_vs_full": {
+            "ssim": 0.44073971115424143,
+            "psnr_db": 10.853026434405963,
+            "nrmse": 0.319254625089706
+          },
+          "metrics_vs_matched_reference": {
+            "ssim": 0.6975281088600479,
+            "psnr_db": 24.786878576352876,
+            "nrmse": 0.0838961054095002
+          }
+        },
+        {
+          "regularization": 0.3,
+          "reused_cached_diagnostic": false,
+          "solve_seconds": 154.90771170007065,
+          "relative_forward_residual": 0.19342285498884793,
+          "metrics_vs_full": {
+            "ssim": 0.43406267311880387,
+            "psnr_db": 11.289259156400341,
+            "nrmse": 0.3036166342470993
+          },
+          "metrics_vs_matched_reference": {
+            "ssim": 0.682918043928226,
+            "psnr_db": 25.856940856863705,
+            "nrmse": 0.0741717774630308
+          }
+        },
+        {
+          "regularization": 1.0,
+          "reused_cached_diagnostic": false,
+          "solve_seconds": 152.30659139994532,
+          "relative_forward_residual": 0.4155060299393538,
+          "metrics_vs_full": {
+            "ssim": 0.38186084266234643,
+            "psnr_db": 10.52992942140287,
+            "nrmse": 0.3313538708268493
+          },
+          "metrics_vs_matched_reference": {
+            "ssim": 0.6087125303530219,
+            "psnr_db": 22.60819898438119,
+            "nrmse": 0.10781415421011253
+          }
+        },
+        {
+          "regularization": 3.0,
+          "reused_cached_diagnostic": false,
+          "solve_seconds": 154.6296087000519,
+          "relative_forward_residual": 0.6523448617595721,
+          "metrics_vs_full": {
+            "ssim": 0.32170443942582855,
+            "psnr_db": 9.572862628382017,
+            "nrmse": 0.36995200721108257
+          },
+          "metrics_vs_matched_reference": {
+            "ssim": 0.5198276859461977,
+            "psnr_db": 19.326718038057294,
+            "nrmse": 0.15730764432700034
+          }
+        }
+      ]
+    }
+  },
+  "conditions": {
+    "0.001": {
+      "measurement_angle_step_deg": 0.001,
+      "calibration_angle_step_deg": 0.001,
+      "calibration_fingerprint": "57fc6f28d96ad165f63c631f68ea7157082baa0019f479be93cce0e609d4ec0d",
+      "calibration_transferred": false,
+      "relative_forward_residual": 0.08085800955339262,
+      "frequency_point_count_positive_half_plane": 6426,
+      "measurement_record_count": 51410,
+      "timing_seconds": {
+        "measurement": 1647.1523306998424,
+        "calibration_build_or_load": 415.79796999972314,
+        "sparse_reconstruction": 109.03068570001051,
+        "legacy_mask_regeneration_and_reconstruction": 1460.7699531000108,
+        "regularized_sparse_reconstruction": 147.71873610001057
+      },
+      "regularization": 0.1,
+      "regularization_selected_at_angle_step_deg": 0.001,
+      "regularization_transferred": false,
+      "metrics_vs_full": {
+        "ssim": 0.44073971115424143,
+        "psnr_db": 10.853026434405963,
+        "nrmse": 0.319254625089706
+      },
+      "metrics_vs_matched_reference": {
+        "ssim": 0.6975281088600479,
+        "psnr_db": 24.786878576352876,
+        "nrmse": 0.0838961054095002
+      },
+      "legacy_metrics_vs_full": {
+        "ssim": 0.3480588017155205,
+        "psnr_db": 10.646789326946028,
+        "nrmse": 0.3269256930288353
+      },
+      "legacy_metrics_vs_matched_reference": {
+        "ssim": 0.5051552364990073,
+        "psnr_db": 21.79381217499186,
+        "nrmse": 0.11841183756277868
+      }
+    },
+    "0.5": {
+      "measurement_angle_step_deg": 0.5,
+      "calibration_angle_step_deg": 0.001,
+      "calibration_fingerprint": "57fc6f28d96ad165f63c631f68ea7157082baa0019f479be93cce0e609d4ec0d",
+      "calibration_transferred": true,
+      "relative_forward_residual": 0.0821055906059733,
+      "frequency_point_count_positive_half_plane": 6426,
+      "measurement_record_count": 51410,
+      "timing_seconds": {
+        "measurement": 1669.787820899859,
+        "calibration_build_or_load": 0.0,
+        "sparse_reconstruction": 103.60056620044634,
+        "legacy_mask_regeneration_and_reconstruction": 1404.5984967001714,
+        "regularized_sparse_reconstruction": 149.2678411998786
+      },
+      "regularization": 0.1,
+      "regularization_selected_at_angle_step_deg": 0.001,
+      "regularization_transferred": true,
+      "metrics_vs_full": {
+        "ssim": 0.4122381348377939,
+        "psnr_db": 10.52169097051439,
+        "nrmse": 0.3316683046643066
+      },
+      "metrics_vs_matched_reference": {
+        "ssim": 0.6588143500787474,
+        "psnr_db": 23.218630709361708,
+        "nrmse": 0.10049725372381556
+      },
+      "legacy_metrics_vs_full": {
+        "ssim": 0.3378019727751326,
+        "psnr_db": 10.750882670165181,
+        "nrmse": 0.32303113688842533
+      },
+      "legacy_metrics_vs_matched_reference": {
+        "ssim": 0.4936928664455905,
+        "psnr_db": 21.909926198744362,
+        "nrmse": 0.11683942729134564
+      }
+    }
+  },
+  "interpretation": "The 0.5-degree result reuses the 0.001-degree response matrix without refitting and therefore includes calibration transfer mismatch."
+}

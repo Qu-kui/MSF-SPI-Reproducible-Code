@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "msf-spi"
+version = "1.0.0"
+description = "Reproducible simulations for Moire sum-frequency single-pixel imaging"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.12",
+  "opencv-python>=4.9",
+  "matplotlib>=3.8",
+  "tqdm>=4.66",
+  "psutil>=5.9",
+  "scikit-image>=0.22",
+]
+
+[project.optional-dependencies]
+cuda = ["cupy-cuda12x>=13.0"]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

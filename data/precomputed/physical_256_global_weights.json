@@ -1,0 +1,17 @@
+{
+  "direct_weights": [
+    3.292424629169426,
+    -1.6466974056083974,
+    -1.646756754090063,
+    -0.8260210294884414,
+    1.7359037245396722
+  ],
+  "diagnostics": {
+    "loss": "l1",
+    "irls_iterations": 4,
+    "linear_solves": 5,
+    "condition_number": 2902.998447078262,
+    "calibration_vector_count": 48,
+    "downsample": 64
+  }
+}

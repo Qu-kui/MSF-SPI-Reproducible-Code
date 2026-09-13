@@ -1,0 +1,14 @@
+{
+  "target_size": 512,
+  "slm_pixels": 64,
+  "base_frequency": 32.0,
+  "maximum_target_frequency": 64.0,
+  "sampling_domain": "circle",
+  "phases_deg": [0.0, 90.0, 180.0, 270.0],
+  "angle_quantization_deg": 0.001,
+  "angle_library": "data/angle_library/optimal_angle_differences.json",
+  "eq10_coefficients": [2.2326, -1.1163, -1.1163, -0.5928, 1.3546],
+  "sparse_regularization": 0.1,
+  "simulation_only": true
+}
+
