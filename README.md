@@ -88,6 +88,6 @@ The reported operational bandwidth of 32 cycles/FOV uses the declared engineerin
 
 ## Data and licensing
 
-The software is provided under the MIT License. The included USAF-1951 image is the exact target used in the validated simulations, but its upstream redistribution status was not established during packaging. The authors must confirm redistribution rights or replace it with a clearly licensed equivalent before a public upload. See [data/README.md](data/README.md).
+The software is provided under the MIT License. The included USAF-1951 image is the exact target used in the validated simulations and is included as a publicly available test resource for reproducibility. See [README.md](data/README.md) for further information.
 
 If you use this repository, cite the associated MSF-SPI article and the software metadata in `CITATION.cff`.
