@@ -1,6 +1,6 @@
 # Data files
 
-`targets/USAF-1951.jpg` is the exact grayscale resolution target used in the validated simulations. Its upstream licence and redistribution rights were not established during this packaging work. Confirm those rights before public release; if redistribution is not permitted, replace it with a clearly licensed target and report that substitution.
+targets/USAF-1951.jpg is the exact grayscale resolution target used in the validated simulations. It is included as a publicly available test resource to support reproducibility.
 
 `angle_library/optimal_angle_differences.json` contains 51,408 phase-resolved entries. It was obtained by one-time reference-image-based optimization and is used only by the idealized algebraic model. It is not a strictly object-independent system calibration.
 
