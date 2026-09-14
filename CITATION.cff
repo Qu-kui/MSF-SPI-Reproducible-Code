@@ -3,8 +3,21 @@ message: "If you use this software, please cite the associated MSF-SPI article."
 title: "MSF-SPI Reproducible Simulation Code"
 type: software
 version: 1.0.0
-date-released: 2026-09-13
-authors:
-  - name: "MSF-SPI authors"
-license: MIT
+date-released: 2026-09-14
 
+authors:
+  - family-names: "Shen"
+    given-names: "Ao"
+    orcid: "https://orcid.org/0009-0003-0315-2237"
+
+  - family-names: "Zhang"
+    given-names: "Yong"
+    orcid: "https://orcid.org/0000-0003-1158-2248"
+
+  - family-names: "Chen"
+    given-names: "Pengcheng"
+    orcid: "https://orcid.org/0000-0002-9637-6912"
+
+license: MIT
+repository-code: "https://github.com/Qu-kui/MSF-SPI-Reproducible-Code"
+url: "https://github.com/Qu-kui/MSF-SPI-Reproducible-Code"
